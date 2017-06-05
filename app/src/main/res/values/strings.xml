@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Let\'s Steal</string>
+
+    <string name="dummy_button">Wanna Make \'em cry?</string>
+    <string name="dummy_content">Let\'s Steal</string>
+    <string name="login">Enter your name here, fellow burglar:</string>
+    <string name="letsSteal">Let\'s Steal</string>
+    <string name="about">About/Instructions</string>
+
+</resources>

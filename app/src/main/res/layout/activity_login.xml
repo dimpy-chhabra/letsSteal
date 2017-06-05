@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+
+    android:padding="16sp"
+    tools:context="com.example.dimpy.sprint.LoginActivity">
+
+    <Button
+        android:id="@+id/btAbout"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="2"
+        android:background="@android:color/holo_blue_dark"
+        android:text="@string/about"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textColor="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:hint="your name"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textColor="@android:color/white" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_gravity="center"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbFemale"
+            android:layout_width="150sp"
+            android:layout_height="70sp"
+            android:text="Female"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:textColor="@android:color/white" />
+
+        <RadioButton
+            android:id="@+id/rbMale"
+            android:layout_width="150sp"
+            android:layout_height="70sp"
+            android:text="Male"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:textColor="@android:color/white" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="2"
+        android:background="@anim/ripple_effect"
+        android:text="@string/letsSteal"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>
